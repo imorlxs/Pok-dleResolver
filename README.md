@@ -2,8 +2,7 @@
 # Pokedle Resolver
 
 The **Pokedle Resolver** is a bot designed to solve puzzles on Pokedle, inspired by the [LOLdleSolver project](https://github.com/LOLdleSolver/LOLdleSolver).
-
-
+Make sure that you switch the language of Pokedle to **Spanish**.
 ## Installation
 
 Before running the program, ensure you have **Google Chrome** installed on your system. Then follow these steps:
@@ -27,6 +26,7 @@ python3 -m venv .
 ```
 
 ## TODO:
+- Support for more languages.
 - Improve Score System: Optimize the scoring mechanism to allow faster and more accurate guesses. 
 - Refactor and clean the code.
 - Maybe support for Firefox?
