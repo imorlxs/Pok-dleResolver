@@ -63,10 +63,12 @@ while won is False:
             elif result[category.value] == Results.GOOD:
                 # poke has A and is good
 
-                if category.value == Categories.EVOLUTION_STAGE or category.value == Categories.HEIGHT or category.value == Categories.WEIGHT:
-                    data.delete_entries_not_equal(category, poke[category.value])
-                else:
+                if category.value == Categories.COLOR:
                     data.delete_entries_without_exact(category, poke[category.value]) # keep pokes with A and only A
+
+                else:
+                    data.delete_entries_not_equal(category, poke[category.value])
+
 
                 #data.delete_entries_without_exact(category, poke[category.value]) # keep pokes with A and only A
 

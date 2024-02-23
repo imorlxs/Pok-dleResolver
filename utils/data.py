@@ -32,16 +32,16 @@ class Data:
         self.pokes = filtered_list
 
     def delete_entries_above(self, category: Categories, values):
-        filtered_list = [poke for poke in self.pokes if  values <= poke[category.value]]
+        filtered_list = [poke for poke in self.pokes if  values > poke[category.value]]
 
-        Formatter.print_deletion_text(len(self.pokes) - len(filtered_list), category.value, "is lower than", values)
+        Formatter.print_deletion_text(len(self.pokes) - len(filtered_list), category.value, "is greater than", values)
 
         self.pokes = filtered_list
 
     def delete_entries_below(self, category: Categories, values):
-        filtered_list = [poke for poke in self.pokes if  values >= poke[category.value]]
+        filtered_list = [poke for poke in self.pokes if  values < poke[category.value]]
 
-        Formatter.print_deletion_text(len(self.pokes) - len(filtered_list), category.value, "is greater than", values)
+        Formatter.print_deletion_text(len(self.pokes) - len(filtered_list), category.value, "is lower than", values)
 
         self.pokes = filtered_list
     

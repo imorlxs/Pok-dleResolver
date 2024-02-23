@@ -369,7 +369,7 @@
         "weight": 295
     },
     {
-        "pokemonName": "Nidoran-f",
+        "pokemonName": "Nidoran♀",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Grassland",
@@ -408,7 +408,7 @@
         "weight": 600
     },
     {
-        "pokemonName": "Nidoran-m",
+        "pokemonName": "Nidoran♂",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Grassland",

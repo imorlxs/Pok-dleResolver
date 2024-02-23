@@ -67,7 +67,17 @@ class Formatter:
         return t
 
     def add_to_poke_table(t: table.Table, poke):
-        t.add_row(poke["pokemonName"], poke[Categories.TYPE1.value], ", ".join(poke[Categories.TYPE2.value]), ", ".join(poke[Categories.HABITAT.value]), poke[Categories.COLOR.value], ", ".join(poke[Categories.EVOLUTION_STAGE.value]), ", ".join(poke[Categories.HEIGHT.value]), poke[Categories.WEIGHT.value])
+        t.add_row(
+        poke["pokemonName"],
+        poke[Categories.TYPE2.value],
+        poke[Categories.TYPE1.value],
+        poke[Categories.HABITAT.value],
+        ", ".join(poke[Categories.COLOR.value]),
+        str(poke[Categories.EVOLUTION_STAGE.value]),
+        str(poke[Categories.HEIGHT.value]),
+        str(poke[Categories.WEIGHT.value])
+)
+
         return t
 
     def error(text):
