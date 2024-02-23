@@ -1,6 +1,6 @@
 [
     {
-        "championName": "Bulbasaur",
+        "pokemonName": "Bulbasaur",
         "type1": "Grass",
         "type2": "Poison",
         "habitat": "Grassland",
@@ -13,7 +13,7 @@
         "weight": 69
     },
     {
-        "championName": "Ivysaur",
+        "pokemonName": "Ivysaur",
         "type1": "Grass",
         "type2": "Poison",
         "habitat": "Grassland",
@@ -26,7 +26,7 @@
         "weight": 130
     },
     {
-        "championName": "Venusaur",
+        "pokemonName": "Venusaur",
         "type1": "Grass",
         "type2": "Poison",
         "habitat": "Grassland",
@@ -39,7 +39,7 @@
         "weight": 1000
     },
     {
-        "championName": "Charmander",
+        "pokemonName": "Charmander",
         "type1": "Fire",
         "type2": "None",
         "habitat": "Mountain",
@@ -52,7 +52,7 @@
         "weight": 85
     },
     {
-        "championName": "Charmeleon",
+        "pokemonName": "Charmeleon",
         "type1": "Fire",
         "type2": "None",
         "habitat": "Mountain",
@@ -65,7 +65,7 @@
         "weight": 190
     },
     {
-        "championName": "Charizard",
+        "pokemonName": "Charizard",
         "type1": "Fire",
         "type2": "Flying",
         "habitat": "Mountain",
@@ -78,7 +78,7 @@
         "weight": 905
     },
     {
-        "championName": "Squirtle",
+        "pokemonName": "Squirtle",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -91,7 +91,7 @@
         "weight": 90
     },
     {
-        "championName": "Wartortle",
+        "pokemonName": "Wartortle",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -104,7 +104,7 @@
         "weight": 225
     },
     {
-        "championName": "Blastoise",
+        "pokemonName": "Blastoise",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -117,7 +117,7 @@
         "weight": 855
     },
     {
-        "championName": "Caterpie",
+        "pokemonName": "Caterpie",
         "type1": "Bug",
         "type2": "None",
         "habitat": "Forest",
@@ -130,7 +130,7 @@
         "weight": 29
     },
     {
-        "championName": "Metapod",
+        "pokemonName": "Metapod",
         "type1": "Bug",
         "type2": "None",
         "habitat": "Forest",
@@ -143,7 +143,7 @@
         "weight": 99
     },
     {
-        "championName": "Butterfree",
+        "pokemonName": "Butterfree",
         "type1": "Bug",
         "type2": "Flying",
         "habitat": "Forest",
@@ -157,7 +157,7 @@
         "weight": 320
     },
     {
-        "championName": "Weedle",
+        "pokemonName": "Weedle",
         "type1": "Bug",
         "type2": "Poison",
         "habitat": "Forest",
@@ -170,7 +170,7 @@
         "weight": 32
     },
     {
-        "championName": "Kakuna",
+        "pokemonName": "Kakuna",
         "type1": "Bug",
         "type2": "Poison",
         "habitat": "Forest",
@@ -183,7 +183,7 @@
         "weight": 100
     },
     {
-        "championName": "Beedrill",
+        "pokemonName": "Beedrill",
         "type1": "Bug",
         "type2": "Poison",
         "habitat": "Forest",
@@ -197,7 +197,7 @@
         "weight": 295
     },
     {
-        "championName": "Pidgey",
+        "pokemonName": "Pidgey",
         "type1": "Normal",
         "type2": "Flying",
         "habitat": "Forest",
@@ -211,7 +211,7 @@
         "weight": 18
     },
     {
-        "championName": "Pidgeotto",
+        "pokemonName": "Pidgeotto",
         "type1": "Normal",
         "type2": "Flying",
         "habitat": "Forest",
@@ -225,7 +225,7 @@
         "weight": 300
     },
     {
-        "championName": "Pidgeot",
+        "pokemonName": "Pidgeot",
         "type1": "Normal",
         "type2": "Flying",
         "habitat": "Forest",
@@ -239,7 +239,7 @@
         "weight": 395
     },
     {
-        "championName": "Rattata",
+        "pokemonName": "Rattata",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Grassland",
@@ -252,7 +252,7 @@
         "weight": 35
     },
     {
-        "championName": "Raticate",
+        "pokemonName": "Raticate",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Grassland",
@@ -265,7 +265,7 @@
         "weight": 185
     },
     {
-        "championName": "Spearow",
+        "pokemonName": "Spearow",
         "type1": "Normal",
         "type2": "Flying",
         "habitat": "Rough-terrain",
@@ -278,7 +278,7 @@
         "weight": 20
     },
     {
-        "championName": "Fearow",
+        "pokemonName": "Fearow",
         "type1": "Normal",
         "type2": "Flying",
         "habitat": "Rough-terrain",
@@ -291,7 +291,7 @@
         "weight": 380
     },
     {
-        "championName": "Ekans",
+        "pokemonName": "Ekans",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Grassland",
@@ -304,7 +304,7 @@
         "weight": 69
     },
     {
-        "championName": "Arbok",
+        "pokemonName": "Arbok",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Grassland",
@@ -317,7 +317,7 @@
         "weight": 650
     },
     {
-        "championName": "Pikachu",
+        "pokemonName": "Pikachu",
         "type1": "Electric",
         "type2": "None",
         "habitat": "Forest",
@@ -330,7 +330,7 @@
         "weight": 60
     },
     {
-        "championName": "Raichu",
+        "pokemonName": "Raichu",
         "type1": "Electric",
         "type2": "None",
         "habitat": "Forest",
@@ -343,7 +343,7 @@
         "weight": 300
     },
     {
-        "championName": "Sandshrew",
+        "pokemonName": "Sandshrew",
         "type1": "Ground",
         "type2": "None",
         "habitat": "Rough-terrain",
@@ -356,7 +356,7 @@
         "weight": 120
     },
     {
-        "championName": "Sandslash",
+        "pokemonName": "Sandslash",
         "type1": "Ground",
         "type2": "None",
         "habitat": "Rough-terrain",
@@ -369,7 +369,7 @@
         "weight": 295
     },
     {
-        "championName": "Nidoran-f",
+        "pokemonName": "Nidoran-f",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Grassland",
@@ -382,7 +382,7 @@
         "weight": 70
     },
     {
-        "championName": "Nidorina",
+        "pokemonName": "Nidorina",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Grassland",
@@ -395,7 +395,7 @@
         "weight": 200
     },
     {
-        "championName": "Nidoqueen",
+        "pokemonName": "Nidoqueen",
         "type1": "Poison",
         "type2": "Ground",
         "habitat": "Grassland",
@@ -408,7 +408,7 @@
         "weight": 600
     },
     {
-        "championName": "Nidoran-m",
+        "pokemonName": "Nidoran-m",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Grassland",
@@ -421,7 +421,7 @@
         "weight": 90
     },
     {
-        "championName": "Nidorino",
+        "pokemonName": "Nidorino",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Grassland",
@@ -434,7 +434,7 @@
         "weight": 195
     },
     {
-        "championName": "Nidoking",
+        "pokemonName": "Nidoking",
         "type1": "Poison",
         "type2": "Ground",
         "habitat": "Grassland",
@@ -447,7 +447,7 @@
         "weight": 620
     },
     {
-        "championName": "Clefairy",
+        "pokemonName": "Clefairy",
         "type1": "Fairy",
         "type2": "None",
         "habitat": "Mountain",
@@ -460,7 +460,7 @@
         "weight": 75
     },
     {
-        "championName": "Clefable",
+        "pokemonName": "Clefable",
         "type1": "Fairy",
         "type2": "None",
         "habitat": "Mountain",
@@ -473,7 +473,7 @@
         "weight": 400
     },
     {
-        "championName": "Vulpix",
+        "pokemonName": "Vulpix",
         "type1": "Fire",
         "type2": "None",
         "habitat": "Grassland",
@@ -487,7 +487,7 @@
         "weight": 99
     },
     {
-        "championName": "Ninetales",
+        "pokemonName": "Ninetales",
         "type1": "Fire",
         "type2": "None",
         "habitat": "Grassland",
@@ -500,7 +500,7 @@
         "weight": 199
     },
     {
-        "championName": "Jigglypuff",
+        "pokemonName": "Jigglypuff",
         "type1": "Normal",
         "type2": "Fairy",
         "habitat": "Grassland",
@@ -513,7 +513,7 @@
         "weight": 55
     },
     {
-        "championName": "Wigglytuff",
+        "pokemonName": "Wigglytuff",
         "type1": "Normal",
         "type2": "Fairy",
         "habitat": "Grassland",
@@ -526,7 +526,7 @@
         "weight": 120
     },
     {
-        "championName": "Zubat",
+        "pokemonName": "Zubat",
         "type1": "Poison",
         "type2": "Flying",
         "habitat": "Cave",
@@ -540,7 +540,7 @@
         "weight": 75
     },
     {
-        "championName": "Golbat",
+        "pokemonName": "Golbat",
         "type1": "Poison",
         "type2": "Flying",
         "habitat": "Cave",
@@ -554,7 +554,7 @@
         "weight": 550
     },
     {
-        "championName": "Oddish",
+        "pokemonName": "Oddish",
         "type1": "Grass",
         "type2": "Poison",
         "habitat": "Grassland",
@@ -568,7 +568,7 @@
         "weight": 54
     },
     {
-        "championName": "Gloom",
+        "pokemonName": "Gloom",
         "type1": "Grass",
         "type2": "Poison",
         "habitat": "Grassland",
@@ -582,7 +582,7 @@
         "weight": 86
     },
     {
-        "championName": "Vileplume",
+        "pokemonName": "Vileplume",
         "type1": "Grass",
         "type2": "Poison",
         "habitat": "Grassland",
@@ -596,7 +596,7 @@
         "weight": 186
     },
     {
-        "championName": "Paras",
+        "pokemonName": "Paras",
         "type1": "Bug",
         "type2": "Grass",
         "habitat": "Forest",
@@ -609,7 +609,7 @@
         "weight": 54
     },
     {
-        "championName": "Parasect",
+        "pokemonName": "Parasect",
         "type1": "Bug",
         "type2": "Grass",
         "habitat": "Forest",
@@ -623,7 +623,7 @@
         "weight": 295
     },
     {
-        "championName": "Venonat",
+        "pokemonName": "Venonat",
         "type1": "Bug",
         "type2": "Poison",
         "habitat": "Forest",
@@ -636,7 +636,7 @@
         "weight": 300
     },
     {
-        "championName": "Venomoth",
+        "pokemonName": "Venomoth",
         "type1": "Bug",
         "type2": "Poison",
         "habitat": "Forest",
@@ -649,7 +649,7 @@
         "weight": 125
     },
     {
-        "championName": "Diglett",
+        "pokemonName": "Diglett",
         "type1": "Ground",
         "type2": "None",
         "habitat": "Cave",
@@ -662,7 +662,7 @@
         "weight": 8
     },
     {
-        "championName": "Dugtrio",
+        "pokemonName": "Dugtrio",
         "type1": "Ground",
         "type2": "None",
         "habitat": "Cave",
@@ -675,7 +675,7 @@
         "weight": 333
     },
     {
-        "championName": "Meowth",
+        "pokemonName": "Meowth",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Urban",
@@ -688,7 +688,7 @@
         "weight": 42
     },
     {
-        "championName": "Persian",
+        "pokemonName": "Persian",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Urban",
@@ -701,7 +701,7 @@
         "weight": 320
     },
     {
-        "championName": "Psyduck",
+        "pokemonName": "Psyduck",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -714,7 +714,7 @@
         "weight": 196
     },
     {
-        "championName": "Golduck",
+        "pokemonName": "Golduck",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -727,7 +727,7 @@
         "weight": 766
     },
     {
-        "championName": "Mankey",
+        "pokemonName": "Mankey",
         "type1": "Fighting",
         "type2": "None",
         "habitat": "Mountain",
@@ -741,7 +741,7 @@
         "weight": 280
     },
     {
-        "championName": "Primeape",
+        "pokemonName": "Primeape",
         "type1": "Fighting",
         "type2": "None",
         "habitat": "Mountain",
@@ -755,7 +755,7 @@
         "weight": 320
     },
     {
-        "championName": "Growlithe",
+        "pokemonName": "Growlithe",
         "type1": "Fire",
         "type2": "None",
         "habitat": "Grassland",
@@ -769,7 +769,7 @@
         "weight": 190
     },
     {
-        "championName": "Arcanine",
+        "pokemonName": "Arcanine",
         "type1": "Fire",
         "type2": "None",
         "habitat": "Grassland",
@@ -783,7 +783,7 @@
         "weight": 1550
     },
     {
-        "championName": "Poliwag",
+        "pokemonName": "Poliwag",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -797,7 +797,7 @@
         "weight": 124
     },
     {
-        "championName": "Poliwhirl",
+        "pokemonName": "Poliwhirl",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -811,7 +811,7 @@
         "weight": 200
     },
     {
-        "championName": "Poliwrath",
+        "pokemonName": "Poliwrath",
         "type1": "Water",
         "type2": "Fighting",
         "habitat": "Waters-edge",
@@ -825,7 +825,7 @@
         "weight": 540
     },
     {
-        "championName": "Abra",
+        "pokemonName": "Abra",
         "type1": "Psychic",
         "type2": "None",
         "habitat": "Urban",
@@ -838,7 +838,7 @@
         "weight": 195
     },
     {
-        "championName": "Kadabra",
+        "pokemonName": "Kadabra",
         "type1": "Psychic",
         "type2": "None",
         "habitat": "Urban",
@@ -851,7 +851,7 @@
         "weight": 565
     },
     {
-        "championName": "Alakazam",
+        "pokemonName": "Alakazam",
         "type1": "Psychic",
         "type2": "None",
         "habitat": "Urban",
@@ -864,7 +864,7 @@
         "weight": 480
     },
     {
-        "championName": "Machop",
+        "pokemonName": "Machop",
         "type1": "Fighting",
         "type2": "None",
         "habitat": "Mountain",
@@ -877,7 +877,7 @@
         "weight": 195
     },
     {
-        "championName": "Machoke",
+        "pokemonName": "Machoke",
         "type1": "Fighting",
         "type2": "None",
         "habitat": "Mountain",
@@ -890,7 +890,7 @@
         "weight": 705
     },
     {
-        "championName": "Machamp",
+        "pokemonName": "Machamp",
         "type1": "Fighting",
         "type2": "None",
         "habitat": "Mountain",
@@ -903,7 +903,7 @@
         "weight": 1300
     },
     {
-        "championName": "Bellsprout",
+        "pokemonName": "Bellsprout",
         "type1": "Grass",
         "type2": "Poison",
         "habitat": "Forest",
@@ -917,7 +917,7 @@
         "weight": 40
     },
     {
-        "championName": "Weepinbell",
+        "pokemonName": "Weepinbell",
         "type1": "Grass",
         "type2": "Poison",
         "habitat": "Forest",
@@ -931,7 +931,7 @@
         "weight": 64
     },
     {
-        "championName": "Victreebel",
+        "pokemonName": "Victreebel",
         "type1": "Grass",
         "type2": "Poison",
         "habitat": "Forest",
@@ -945,7 +945,7 @@
         "weight": 155
     },
     {
-        "championName": "Tentacool",
+        "pokemonName": "Tentacool",
         "type1": "Water",
         "type2": "Poison",
         "habitat": "Sea",
@@ -959,7 +959,7 @@
         "weight": 455
     },
     {
-        "championName": "Tentacruel",
+        "pokemonName": "Tentacruel",
         "type1": "Water",
         "type2": "Poison",
         "habitat": "Sea",
@@ -973,7 +973,7 @@
         "weight": 550
     },
     {
-        "championName": "Geodude",
+        "pokemonName": "Geodude",
         "type1": "Rock",
         "type2": "Ground",
         "habitat": "Mountain",
@@ -986,7 +986,7 @@
         "weight": 200
     },
     {
-        "championName": "Graveler",
+        "pokemonName": "Graveler",
         "type1": "Rock",
         "type2": "Ground",
         "habitat": "Mountain",
@@ -999,7 +999,7 @@
         "weight": 1050
     },
     {
-        "championName": "Golem",
+        "pokemonName": "Golem",
         "type1": "Rock",
         "type2": "Ground",
         "habitat": "Mountain",
@@ -1012,7 +1012,7 @@
         "weight": 3000
     },
     {
-        "championName": "Ponyta",
+        "pokemonName": "Ponyta",
         "type1": "Fire",
         "type2": "None",
         "habitat": "Grassland",
@@ -1026,7 +1026,7 @@
         "weight": 300
     },
     {
-        "championName": "Rapidash",
+        "pokemonName": "Rapidash",
         "type1": "Fire",
         "type2": "None",
         "habitat": "Grassland",
@@ -1040,7 +1040,7 @@
         "weight": 950
     },
     {
-        "championName": "Slowpoke",
+        "pokemonName": "Slowpoke",
         "type1": "Water",
         "type2": "Psychic",
         "habitat": "Waters-edge",
@@ -1053,7 +1053,7 @@
         "weight": 360
     },
     {
-        "championName": "Slowbro",
+        "pokemonName": "Slowbro",
         "type1": "Water",
         "type2": "Psychic",
         "habitat": "Waters-edge",
@@ -1066,7 +1066,7 @@
         "weight": 785
     },
     {
-        "championName": "Magnemite",
+        "pokemonName": "Magnemite",
         "type1": "Electric",
         "type2": "Steel",
         "habitat": "Rough-terrain",
@@ -1079,7 +1079,7 @@
         "weight": 60
     },
     {
-        "championName": "Magneton",
+        "pokemonName": "Magneton",
         "type1": "Electric",
         "type2": "Steel",
         "habitat": "Rough-terrain",
@@ -1092,7 +1092,7 @@
         "weight": 600
     },
     {
-        "championName": "Farfetchd",
+        "pokemonName": "Farfetchd",
         "type1": "Normal",
         "type2": "Flying",
         "habitat": "Grassland",
@@ -1105,7 +1105,7 @@
         "weight": 150
     },
     {
-        "championName": "Doduo",
+        "pokemonName": "Doduo",
         "type1": "Normal",
         "type2": "Flying",
         "habitat": "Grassland",
@@ -1118,7 +1118,7 @@
         "weight": 392
     },
     {
-        "championName": "Dodrio",
+        "pokemonName": "Dodrio",
         "type1": "Normal",
         "type2": "Flying",
         "habitat": "Grassland",
@@ -1131,7 +1131,7 @@
         "weight": 852
     },
     {
-        "championName": "Seel",
+        "pokemonName": "Seel",
         "type1": "Water",
         "type2": "None",
         "habitat": "Sea",
@@ -1144,7 +1144,7 @@
         "weight": 900
     },
     {
-        "championName": "Dewgong",
+        "pokemonName": "Dewgong",
         "type1": "Water",
         "type2": "Ice",
         "habitat": "Sea",
@@ -1157,7 +1157,7 @@
         "weight": 1200
     },
     {
-        "championName": "Grimer",
+        "pokemonName": "Grimer",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Urban",
@@ -1170,7 +1170,7 @@
         "weight": 300
     },
     {
-        "championName": "Muk",
+        "pokemonName": "Muk",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Urban",
@@ -1183,7 +1183,7 @@
         "weight": 300
     },
     {
-        "championName": "Shellder",
+        "pokemonName": "Shellder",
         "type1": "Water",
         "type2": "None",
         "habitat": "Sea",
@@ -1197,7 +1197,7 @@
         "weight": 40
     },
     {
-        "championName": "Cloyster",
+        "pokemonName": "Cloyster",
         "type1": "Water",
         "type2": "Ice",
         "habitat": "Sea",
@@ -1210,7 +1210,7 @@
         "weight": 1325
     },
     {
-        "championName": "Gastly",
+        "pokemonName": "Gastly",
         "type1": "Ghost",
         "type2": "Poison",
         "habitat": "Cave",
@@ -1224,7 +1224,7 @@
         "weight": 1
     },
     {
-        "championName": "Haunter",
+        "pokemonName": "Haunter",
         "type1": "Ghost",
         "type2": "Poison",
         "habitat": "Cave",
@@ -1237,7 +1237,7 @@
         "weight": 1
     },
     {
-        "championName": "Gengar",
+        "pokemonName": "Gengar",
         "type1": "Ghost",
         "type2": "Poison",
         "habitat": "Cave",
@@ -1250,7 +1250,7 @@
         "weight": 405
     },
     {
-        "championName": "Onix",
+        "pokemonName": "Onix",
         "type1": "Rock",
         "type2": "Ground",
         "habitat": "Cave",
@@ -1263,7 +1263,7 @@
         "weight": 2100
     },
     {
-        "championName": "Drowzee",
+        "pokemonName": "Drowzee",
         "type1": "Psychic",
         "type2": "None",
         "habitat": "Grassland",
@@ -1277,7 +1277,7 @@
         "weight": 324
     },
     {
-        "championName": "Hypno",
+        "pokemonName": "Hypno",
         "type1": "Psychic",
         "type2": "None",
         "habitat": "Grassland",
@@ -1290,7 +1290,7 @@
         "weight": 756
     },
     {
-        "championName": "Krabby",
+        "pokemonName": "Krabby",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -1304,7 +1304,7 @@
         "weight": 65
     },
     {
-        "championName": "Kingler",
+        "pokemonName": "Kingler",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -1318,7 +1318,7 @@
         "weight": 600
     },
     {
-        "championName": "Voltorb",
+        "pokemonName": "Voltorb",
         "type1": "Electric",
         "type2": "None",
         "habitat": "Urban",
@@ -1332,7 +1332,7 @@
         "weight": 104
     },
     {
-        "championName": "Electrode",
+        "pokemonName": "Electrode",
         "type1": "Electric",
         "type2": "None",
         "habitat": "Urban",
@@ -1346,7 +1346,7 @@
         "weight": 666
     },
     {
-        "championName": "Exeggcute",
+        "pokemonName": "Exeggcute",
         "type1": "Grass",
         "type2": "Psychic",
         "habitat": "Forest",
@@ -1359,7 +1359,7 @@
         "weight": 25
     },
     {
-        "championName": "Exeggutor",
+        "pokemonName": "Exeggutor",
         "type1": "Grass",
         "type2": "Psychic",
         "habitat": "Forest",
@@ -1373,7 +1373,7 @@
         "weight": 1200
     },
     {
-        "championName": "Cubone",
+        "pokemonName": "Cubone",
         "type1": "Ground",
         "type2": "None",
         "habitat": "Mountain",
@@ -1386,7 +1386,7 @@
         "weight": 65
     },
     {
-        "championName": "Marowak",
+        "pokemonName": "Marowak",
         "type1": "Ground",
         "type2": "None",
         "habitat": "Mountain",
@@ -1399,7 +1399,7 @@
         "weight": 450
     },
     {
-        "championName": "Hitmonlee",
+        "pokemonName": "Hitmonlee",
         "type1": "Fighting",
         "type2": "None",
         "habitat": "Urban",
@@ -1412,7 +1412,7 @@
         "weight": 498
     },
     {
-        "championName": "Hitmonchan",
+        "pokemonName": "Hitmonchan",
         "type1": "Fighting",
         "type2": "None",
         "habitat": "Urban",
@@ -1425,7 +1425,7 @@
         "weight": 502
     },
     {
-        "championName": "Lickitung",
+        "pokemonName": "Lickitung",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Grassland",
@@ -1438,7 +1438,7 @@
         "weight": 655
     },
     {
-        "championName": "Koffing",
+        "pokemonName": "Koffing",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Urban",
@@ -1451,7 +1451,7 @@
         "weight": 10
     },
     {
-        "championName": "Weezing",
+        "pokemonName": "Weezing",
         "type1": "Poison",
         "type2": "None",
         "habitat": "Urban",
@@ -1464,7 +1464,7 @@
         "weight": 95
     },
     {
-        "championName": "Rhyhorn",
+        "pokemonName": "Rhyhorn",
         "type1": "Ground",
         "type2": "Rock",
         "habitat": "Rough-terrain",
@@ -1477,7 +1477,7 @@
         "weight": 1150
     },
     {
-        "championName": "Rhydon",
+        "pokemonName": "Rhydon",
         "type1": "Ground",
         "type2": "Rock",
         "habitat": "Rough-terrain",
@@ -1490,7 +1490,7 @@
         "weight": 1200
     },
     {
-        "championName": "Chansey",
+        "pokemonName": "Chansey",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Urban",
@@ -1503,7 +1503,7 @@
         "weight": 346
     },
     {
-        "championName": "Tangela",
+        "pokemonName": "Tangela",
         "type1": "Grass",
         "type2": "None",
         "habitat": "Grassland",
@@ -1516,7 +1516,7 @@
         "weight": 350
     },
     {
-        "championName": "Kangaskhan",
+        "pokemonName": "Kangaskhan",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Grassland",
@@ -1529,7 +1529,7 @@
         "weight": 800
     },
     {
-        "championName": "Horsea",
+        "pokemonName": "Horsea",
         "type1": "Water",
         "type2": "None",
         "habitat": "Sea",
@@ -1542,7 +1542,7 @@
         "weight": 80
     },
     {
-        "championName": "Seadra",
+        "pokemonName": "Seadra",
         "type1": "Water",
         "type2": "None",
         "habitat": "Sea",
@@ -1555,7 +1555,7 @@
         "weight": 250
     },
     {
-        "championName": "Goldeen",
+        "pokemonName": "Goldeen",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -1569,7 +1569,7 @@
         "weight": 150
     },
     {
-        "championName": "Seaking",
+        "pokemonName": "Seaking",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -1583,7 +1583,7 @@
         "weight": 390
     },
     {
-        "championName": "Staryu",
+        "pokemonName": "Staryu",
         "type1": "Water",
         "type2": "None",
         "habitat": "Sea",
@@ -1597,7 +1597,7 @@
         "weight": 345
     },
     {
-        "championName": "Starmie",
+        "pokemonName": "Starmie",
         "type1": "Water",
         "type2": "Psychic",
         "habitat": "Sea",
@@ -1610,7 +1610,7 @@
         "weight": 800
     },
     {
-        "championName": "Mr-mime",
+        "pokemonName": "Mr-mime",
         "type1": "Psychic",
         "type2": "Fairy",
         "habitat": "Urban",
@@ -1624,7 +1624,7 @@
         "weight": 545
     },
     {
-        "championName": "Scyther",
+        "pokemonName": "Scyther",
         "type1": "Bug",
         "type2": "Flying",
         "habitat": "Grassland",
@@ -1637,7 +1637,7 @@
         "weight": 560
     },
     {
-        "championName": "Jynx",
+        "pokemonName": "Jynx",
         "type1": "Ice",
         "type2": "Psychic",
         "habitat": "Urban",
@@ -1651,7 +1651,7 @@
         "weight": 406
     },
     {
-        "championName": "Electabuzz",
+        "pokemonName": "Electabuzz",
         "type1": "Electric",
         "type2": "None",
         "habitat": "Grassland",
@@ -1665,7 +1665,7 @@
         "weight": 300
     },
     {
-        "championName": "Magmar",
+        "pokemonName": "Magmar",
         "type1": "Fire",
         "type2": "None",
         "habitat": "Mountain",
@@ -1679,7 +1679,7 @@
         "weight": 445
     },
     {
-        "championName": "Pinsir",
+        "pokemonName": "Pinsir",
         "type1": "Bug",
         "type2": "None",
         "habitat": "Forest",
@@ -1692,7 +1692,7 @@
         "weight": 550
     },
     {
-        "championName": "Tauros",
+        "pokemonName": "Tauros",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Grassland",
@@ -1705,7 +1705,7 @@
         "weight": 884
     },
     {
-        "championName": "Magikarp",
+        "pokemonName": "Magikarp",
         "type1": "Water",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -1718,7 +1718,7 @@
         "weight": 100
     },
     {
-        "championName": "Gyarados",
+        "pokemonName": "Gyarados",
         "type1": "Water",
         "type2": "Flying",
         "habitat": "Waters-edge",
@@ -1731,7 +1731,7 @@
         "weight": 2350
     },
     {
-        "championName": "Lapras",
+        "pokemonName": "Lapras",
         "type1": "Water",
         "type2": "Ice",
         "habitat": "Sea",
@@ -1744,7 +1744,7 @@
         "weight": 2200
     },
     {
-        "championName": "Ditto",
+        "pokemonName": "Ditto",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Urban",
@@ -1757,7 +1757,7 @@
         "weight": 40
     },
     {
-        "championName": "Eevee",
+        "pokemonName": "Eevee",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Urban",
@@ -1770,7 +1770,7 @@
         "weight": 65
     },
     {
-        "championName": "Vaporeon",
+        "pokemonName": "Vaporeon",
         "type1": "Water",
         "type2": "None",
         "habitat": "Urban",
@@ -1783,7 +1783,7 @@
         "weight": 290
     },
     {
-        "championName": "Jolteon",
+        "pokemonName": "Jolteon",
         "type1": "Electric",
         "type2": "None",
         "habitat": "Urban",
@@ -1796,7 +1796,7 @@
         "weight": 245
     },
     {
-        "championName": "Flareon",
+        "pokemonName": "Flareon",
         "type1": "Fire",
         "type2": "None",
         "habitat": "Urban",
@@ -1809,7 +1809,7 @@
         "weight": 250
     },
     {
-        "championName": "Porygon",
+        "pokemonName": "Porygon",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Urban",
@@ -1823,7 +1823,7 @@
         "weight": 365
     },
     {
-        "championName": "Omanyte",
+        "pokemonName": "Omanyte",
         "type1": "Rock",
         "type2": "Water",
         "habitat": "Sea",
@@ -1837,7 +1837,7 @@
         "weight": 75
     },
     {
-        "championName": "Omastar",
+        "pokemonName": "Omastar",
         "type1": "Rock",
         "type2": "Water",
         "habitat": "Sea",
@@ -1851,7 +1851,7 @@
         "weight": 350
     },
     {
-        "championName": "Kabuto",
+        "pokemonName": "Kabuto",
         "type1": "Rock",
         "type2": "Water",
         "habitat": "Sea",
@@ -1865,7 +1865,7 @@
         "weight": 115
     },
     {
-        "championName": "Kabutops",
+        "pokemonName": "Kabutops",
         "type1": "Rock",
         "type2": "Water",
         "habitat": "Sea",
@@ -1878,7 +1878,7 @@
         "weight": 405
     },
     {
-        "championName": "Aerodactyl",
+        "pokemonName": "Aerodactyl",
         "type1": "Rock",
         "type2": "Flying",
         "habitat": "Mountain",
@@ -1892,7 +1892,7 @@
         "weight": 590
     },
     {
-        "championName": "Snorlax",
+        "pokemonName": "Snorlax",
         "type1": "Normal",
         "type2": "None",
         "habitat": "Mountain",
@@ -1906,7 +1906,7 @@
         "weight": 4600
     },
     {
-        "championName": "Articuno",
+        "pokemonName": "Articuno",
         "type1": "Ice",
         "type2": "Flying",
         "habitat": "Rare",
@@ -1919,7 +1919,7 @@
         "weight": 554
     },
     {
-        "championName": "Zapdos",
+        "pokemonName": "Zapdos",
         "type1": "Electric",
         "type2": "Flying",
         "habitat": "Rare",
@@ -1932,7 +1932,7 @@
         "weight": 526
     },
     {
-        "championName": "Moltres",
+        "pokemonName": "Moltres",
         "type1": "Fire",
         "type2": "Flying",
         "habitat": "Rare",
@@ -1945,7 +1945,7 @@
         "weight": 600
     },
     {
-        "championName": "Dratini",
+        "pokemonName": "Dratini",
         "type1": "Dragon",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -1958,7 +1958,7 @@
         "weight": 33
     },
     {
-        "championName": "Dragonair",
+        "pokemonName": "Dragonair",
         "type1": "Dragon",
         "type2": "None",
         "habitat": "Waters-edge",
@@ -1971,7 +1971,7 @@
         "weight": 165
     },
     {
-        "championName": "Dragonite",
+        "pokemonName": "Dragonite",
         "type1": "Dragon",
         "type2": "Flying",
         "habitat": "Waters-edge",
@@ -1984,7 +1984,7 @@
         "weight": 2100
     },
     {
-        "championName": "Mewtwo",
+        "pokemonName": "Mewtwo",
         "type1": "Psychic",
         "type2": "None",
         "habitat": "Rare",
@@ -1998,7 +1998,7 @@
         "weight": 1220
     },
     {
-        "championName": "Mew",
+        "pokemonName": "Mew",
         "type1": "Psychic",
         "type2": "None",
         "habitat": "Rare",

@@ -25,10 +25,10 @@ class Driver:
 
         self.driver = driver
 
-        driver.get("https://loldle.net/classic")
+        driver.get("https://pokedle.net/classic")
 
         try:
-            self.input = Wait(self.driver, timeout=10).until(EC.presence_of_element_located((By.XPATH, "//input[@placeholder='Champion-Namen eingeben ...']")))
+            self.input = Wait(self.driver, timeout=10).until(EC.presence_of_element_located((By.XPATH, "//input[@placeholder='Escribe el nombre del pokémon ...']")))
         
         except TimeoutException:
             print("Loading took to long...")
@@ -53,12 +53,12 @@ class Driver:
         except:
             return False
 
-    def input_champ(self, champ: str):
+    def input_poke(self, poke: str):
         if not self.ready:
             return
 
         try:
-            self.input.send_keys(champ + Keys.ENTER)
+            self.input.send_keys(poke + Keys.ENTER)
         except:
             return None
 

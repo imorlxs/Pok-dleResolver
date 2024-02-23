@@ -13,22 +13,22 @@ class Formatter:
         console.clear()
         return mode
 
-    def prompt_champ():
-        champ = prompt.Prompt.ask("Select starting champ")
+    def prompt_poke():
+        poke = prompt.Prompt.ask("Select starting pokemon")
         console.clear()
-        return champ
+        return poke
     
 
-    def print_new_champ(champ: str):
+    def print_new_poke(poke: str):
         console.print("\n")
-        console.rule("Now guessing: [bold cyan]" + champ)
+        console.rule("Now guessing: [bold cyan]" + poke)
 
 
-    def winning_screen(champ: str, steps: int) -> bool:
+    def winning_screen(poke: str, steps: int) -> bool:
         console.print("\n")
         console.rule("[bold green]YOU WON")
-        #console.print(panel.Panel("[green bold]YOU WON!!![/green bold]\n\nGuesses: [red bold]" + str(steps) + "[/red bold]\n\nThe winning champion was:\n[bold cyan]" + champ, padding=(2, 20)), justify="center")
-        console.print(panel.Panel("The winning champion was:\n[bold cyan]" + champ + "[/bold cyan]\n\nGuesses: [red bold]" + str(steps), padding=(2, 20)), justify="center")
+        #console.print(panel.Panel("[green bold]YOU WON!!![/green bold]\n\nGuesses: [red bold]" + str(steps) + "[/red bold]\n\nThe winning pokemon was:\n[bold cyan]" + poke, padding=(2, 20)), justify="center")
+        console.print(panel.Panel("The winning pokemon was:\n[bold cyan]" + poke + "[/bold cyan]\n\nGuesses: [red bold]" + str(steps), padding=(2, 20)), justify="center")
         console.print("\n")
 
         close = prompt.Prompt.ask("Do you want to close now?", choices=["y", "n"], default="y")
@@ -52,22 +52,22 @@ class Formatter:
 
 
 
-    def init_champ_table(title: str):
+    def init_poke_table(title: str):
         t =  table.Table(title=title, box=box.ROUNDED)
 
         t.add_column("Name", style="cyan bold")
-        t.add_column("Gender")
-        t.add_column("Position")
-        t.add_column("Species")
-        t.add_column("Resource")
-        t.add_column("Range Type")
-        t.add_column("Region")
-        t.add_column("Year")
+        t.add_column("Type 1")
+        t.add_column("Type 2")
+        t.add_column("Habitat")
+        t.add_column("Color")
+        t.add_column("Evolution Stage")
+        t.add_column("Height")
+        t.add_column("Weight")
 
         return t
 
-    def add_to_champ_table(t: table.Table, champ):
-        t.add_row(champ["championName"], champ[Categories.GENDER.value], ", ".join(champ[Categories.POSITION.value]), ", ".join(champ[Categories.SPECIES.value]), champ[Categories.RESOURCE.value], ", ".join(champ[Categories.RANGE_TYPE.value]), ", ".join(champ[Categories.REGION.value]), champ[Categories.RELEASE_YEAR.value])
+    def add_to_poke_table(t: table.Table, poke):
+        t.add_row(poke["pokemonName"], poke[Categories.TYPE1.value], ", ".join(poke[Categories.TYPE2.value]), ", ".join(poke[Categories.HABITAT.value]), poke[Categories.COLOR.value], ", ".join(poke[Categories.EVOLUTION_STAGE.value]), ", ".join(poke[Categories.HEIGHT.value]), poke[Categories.WEIGHT.value])
         return t
 
     def error(text):

@@ -10,11 +10,11 @@ class Results(Enum):
 
 
 class Categories(Enum):
-    GENDER = "gender"
-    POSITION = "positions"
-    SPECIES = "species"
-    RESOURCE = "resource"
-    RANGE_TYPE = "range_type"
-    REGION = "regions"
-    RELEASE_YEAR = "release_date"
+    TYPE1 = "type1"
+    TYPE2 = "type2"
+    HABITAT = "habitat"
+    COLOR = "color"
+    EVOLUTION_STAGE = "evolutionStageGen1"
+    HEIGHT = "height"
+    WEIGHT = "weight"
     

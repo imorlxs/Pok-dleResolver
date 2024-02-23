@@ -31,12 +31,36 @@ class Data:
 
         self.pokes = filtered_list
 
+    def delete_entries_above(self, category: Categories, values):
+        filtered_list = [poke for poke in self.pokes if  values <= poke[category.value]]
+
+        Formatter.print_deletion_text(len(self.pokes) - len(filtered_list), category.value, "is lower than", values)
+
+        self.pokes = filtered_list
+
+    def delete_entries_below(self, category: Categories, values):
+        filtered_list = [poke for poke in self.pokes if  values >= poke[category.value]]
+
+        Formatter.print_deletion_text(len(self.pokes) - len(filtered_list), category.value, "is greater than", values)
+
+        self.pokes = filtered_list
+    
+    def delete_entries_not_equal(self, category: Categories, values):
+        filtered_list = [poke for poke in self.pokes if  values == poke[category.value]]
+
+        Formatter.print_deletion_text(len(self.pokes) - len(filtered_list), category.value, "is not equal than", values)
+
+        self.pokes = filtered_list
+    
+
     def delete_entries_without(self, category: Categories, value: str):
         filtered_list = [poke for poke in self.pokes if value in poke[category.value]]
 
         Formatter.print_deletion_text(len(self.pokes) - len(filtered_list), category.value, "does not include", value)
 
         self.pokes = filtered_list
+
+    
 
     def delete_entries_without_exact(self, category: Categories, values):
         filtered_list = [poke for poke in self.pokes if values == poke[category.value]]
@@ -59,7 +83,7 @@ class Data:
 
     def get_poke(self, name: str):
         try:
-            return [c for c in self.pokes if name.lower() == c["pokeionName"].lower()][0]
+            return [c for c in self.pokes if name.lower() == c["pokemonName"].lower()][0]
         except:
             return None
 
@@ -71,17 +95,21 @@ class Data:
 
         scores = {}
 
-        median_year = statistics.median([int(c[Categories.RELEASE_YEAR.value]) for c in self.pokes])
+        median_evolution = statistics.median([int(c[Categories.EVOLUTION_STAGE.value]) for c in self.pokes])
+        median_height = statistics.median([int(c[Categories.HEIGHT.value]) for c in self.pokes])
+        median_weight = statistics.median([int(c[Categories.WEIGHT.value]) for c in self.pokes])
 
         for poke in self.pokes:
             score = 0
 
             # year 
-            score -= 50 * abs(median_year - int(poke[Categories.RELEASE_YEAR.value]))
+            score -= abs(median_evolution - int(poke[Categories.EVOLUTION_STAGE.value]))
+            score -= abs(median_height - int(poke[Categories.HEIGHT.value]))
+            score -= abs(median_weight - int(poke[Categories.WEIGHT.value]))
+            
 
 
-            # GENDER and RANGE_TYPE are not considered, because they both have only two values -> Enough information is gathered either way
-            for c in [Categories.RESOURCE, Categories.POSITION, Categories.SPECIES, Categories.REGION]:
+            for c in [Categories.TYPE1, Categories.TYPE2, Categories.HABITAT, Categories.COLOR]:
                 if isinstance(poke[c.value], str):
                     score += self._get_number_of_occurences_for(c, poke[c.value])
                 else:
@@ -89,7 +117,7 @@ class Data:
                         score += self._get_number_of_occurences_for(c, v)
 
             
-            scores[poke["pokeionName"]] = score
+            scores[poke["pokemonName"]] = score
 
 
         scores = dict(sorted(scores.items(), key=lambda item: item[1], reverse=False if mode == "worst" else True))
@@ -98,7 +126,7 @@ class Data:
         Formatter.print_top_picks(list(scores)[:3], list(scores.values())[:3])
 
 
-        return [c for c in self.pokes if c["pokeionName"] == list(scores)[0]][0]
+        return [c for c in self.pokes if c["pokemonName"] == list(scores)[0]][0]
 
 
         

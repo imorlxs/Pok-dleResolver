@@ -3,3 +3,9 @@ __pycache__
 build
 dist
 *.zip
+bin
+include
+lib
+lib64
+utils/__pycache__
+pyvenv.cfg
